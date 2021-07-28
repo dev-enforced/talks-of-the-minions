@@ -10,7 +10,7 @@ function constructURL(text){
 }
 function errorHandler(error){
     console.log(error)
-    outputCenter.value="Please try later";
+    outputCenter.value="Please try again later";
 }
 function clickHandler(){
     var iv=inputCenter.value;
